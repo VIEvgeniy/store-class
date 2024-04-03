@@ -17,7 +17,7 @@ import PropTypes from 'prop-types'
 // )
 
 class ShopItemClass extends React.Component {
-    render(props) {
+    render() {
         return (
             <div className="main-content">
             <h2>{this.props.item.brand}</h2>
@@ -32,6 +32,7 @@ class ShopItemClass extends React.Component {
             </div>
         </div>    
         )
+    }
 }
 
 ShopItemClass.propTypes = {
